@@ -6,7 +6,7 @@ const readCsv = require('gtfs-utils/read-csv');
 const computeStopovers = require('gtfs-utils/compute-stopovers');
 
 // const ZIP_PATH = require.resolve('sample-gtfs-feed/gtfs.zip')
-const ZIP_PATH = require.resolve('/Users/apw/code/gtfs-playground/data/gtfs_sorted.zip');
+const ZIP_PATH = require.resolve('/Users/apw/code/gtfs-playground/data/no_underscores.zip');
 
 interface ZipEntry {
     name: string; // The name of the file or directory inside the archive
@@ -23,7 +23,7 @@ async function gtfsUtils() {
 
         // await zip.close();
         const readFile = (file) => {
-            return readCsv(require.resolve('../data/gtfs/' + file + '.txt'));
+            return readCsv(require.resolve('../data/gtfs_sorted/' + file + '.txt'));
         };
 
         // process.exit(1);
@@ -50,15 +50,9 @@ async function gtfsUtils() {
     }
 }
 
-(async () => {
-    await gtfsUtils();
-})();
-
 function goaway() {
     (async () => {
         const zip = new ZipArchive({ file: ZIP_PATH });
-
-        console.log(zip);
 
         // const entries: Record<string, ZipEntry> = await zip.entries();
 
@@ -74,7 +68,7 @@ function goaway() {
 
             zip.stream(name + '.txt')
                 .then((file: any) => {
-                    console.log(file);
+                    // console.log(file);
                     return new Promise<void>((resolve, reject) => {
                         pipeline(file, stream, (err: Error) => {
                             if (err) {
@@ -88,6 +82,7 @@ function goaway() {
                     console.log('ERROR');
                     console.log(err);
                     stream.destroy(err);
+                    throw err;
                 });
 
             return readCsv(stream);
@@ -103,3 +98,7 @@ function goaway() {
         process.exit(1);
     });
 }
+
+(async () => {
+    await gtfsUtils();
+})();
