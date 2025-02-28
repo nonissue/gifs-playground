@@ -1,3 +1,4 @@
+import { Config, GtfsImportTask } from './types';
 import downloadScheduleData from './downloadScheduleData';
 import { GtfsImportTask } from './task';
 

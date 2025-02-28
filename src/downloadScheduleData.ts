@@ -1,5 +1,5 @@
 import { cp, readdir, rename, readFile, rm, writeFile } from 'node:fs/promises';
-import { GtfsImportTask } from './task';
+import { GtfsImportTask } from './types';
 
 const downloadScheduleData = async (task: GtfsImportTask): Promise<void> => {
     if (!task.url) {
