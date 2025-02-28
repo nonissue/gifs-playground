@@ -1,11 +1,8 @@
 import { Config, GtfsImportTask } from './types';
 import downloadScheduleData from './downloadScheduleData';
-import { GtfsImportTask } from './task';
+import { getConfig } from './lib/config';
 
-/**
- * Example usage
- */
-async function main() {
+async function attemptDownload() {
     const testTask: GtfsImportTask = {
         url: 'https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/GTFS.zip',
         downloadDir: 'data/gtfs',
@@ -17,6 +14,16 @@ async function main() {
     } catch (error) {
         console.error('Failed to download GTFS data:', error);
     }
+}
+
+async function readConfigFile() {
+    const config: Config = await getConfig();
+    console.log(config);
+}
+
+async function main() {
+    await attemptDownload();
+    await readConfigFile();
 }
 
 main();
