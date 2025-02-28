@@ -17,5 +17,6 @@
     "ignoreErrors": false,
     "sqlitePath": "/tmp/gtfs",
     "verbose": true,
-    "exportPath": "~/path/to/export/gtfs"
+    "exportPath": "~/path/to/export/gtfs",
+    "SHOULDCAUSEFAILURE": "THIS SHOULD FAIL"
 }
