@@ -1,0 +1,34 @@
+# Node modules  
+node_modules/  
+npm-debug.log*  
+yarn-debug.log*  
+yarn-error.log*  
+pnpm-debug.log*  
+pnpm-lock.yaml*  
+
+# TypeScript build artifacts  
+dist/  
+out/  
+*.js  
+*.js.map  
+*.d.ts  
+*.d.ts.map  
+*.tsbuildinfo  
+
+# Editor and OS files  
+.DS_Store  
+.vscode/  
+
+# Logs and environment files  
+logs  
+*.log  
+*.log.*  
+pids  
+*.pid  
+*.seed  
+*.pid.lock  
+.env  
+.env.local  
+.env.development.local  
+.env.test.local  
+.env.production.local  
