@@ -23,7 +23,7 @@ async function gtfsUtils() {
 
         // await zip.close();
         const readFile = (file) => {
-            return readCsv(require.resolve('../data/gtfs_sorted/' + file + '.txt'));
+            return readCsv(require.resolve('../data/gtfs/' + file + '.txt'));
         };
 
         // process.exit(1);
