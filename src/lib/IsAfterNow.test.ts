@@ -22,7 +22,7 @@ jest.mock('luxon', () => {
 describe('isAfterNow', () => {
     it('should return true if the timestamp is after the current time', () => {
         const futureTimestamp = DateTime.now().plus({ minutes: 10 }).toMillis() / 1000; // 10 minutes after current time
-        console.log('future: ' + futureTimestamp + ' current: ' + DateTime.now());
+
         expect(isAfterNow(futureTimestamp)).toBe(true);
     });
 
@@ -38,7 +38,6 @@ describe('isAfterNow', () => {
 
     it('should return false if the timestamp time is later than the current time but from a day in the past', () => {
         const pastTimestamp = DateTime.now().minus({ hours: 23 }).toMillis() / 1000;
-        console.log('past: ' + pastTimestamp + ' current: ' + DateTime.now());
 
         expect(isAfterNow(pastTimestamp)).toBe(false);
     });
