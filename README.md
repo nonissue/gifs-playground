@@ -4,7 +4,7 @@ ETS GTFS Schedule Data: https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/G
 
 ## Initial Work
 
-Okay after hours of struggling, I can compute stopovers:
+Okay after hours of struggling, I can compute stopovers and it works with ETS data (with caveats, see Issues below)
 
 ```bash
 tsc src/gtfs-utils.ts; node src/gtfs-utils.js

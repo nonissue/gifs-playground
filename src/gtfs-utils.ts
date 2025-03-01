@@ -6,7 +6,7 @@ const readCsv = require('gtfs-utils/read-csv');
 const computeStopovers = require('gtfs-utils/compute-stopovers');
 
 // const ZIP_PATH = require.resolve('sample-gtfs-feed/gtfs.zip')
-const ZIP_PATH = require.resolve('/Users/apw/code/gtfs-playground/data/no_underscores.zip');
+const ZIP_PATH = require.resolve('/Users/apw/code/gtfs-playground/data/gtfs_sorted.zip');
 
 interface ZipEntry {
     name: string; // The name of the file or directory inside the archive
@@ -28,11 +28,18 @@ async function gtfsUtils() {
 
         // process.exit(1);
         const stopovers = computeStopovers(readFile, 'America/Edmonton', {
-            stopTime: (s) => s.stop_id === '2114',
+            stopTime: (s) => {
+                if (s.stop_id === '2114') {
+                    // console.log(s);
+                    console.log(Object.keys(s));
+                    console.log(s.departure_time);
+                    return s;
+                }
+            },
         });
 
         for await (const stopover of stopovers) {
-            console.log(stopover);
+            // console.log(stopover);
         }
         // const readFile = async (name) => {
         //     console.log(name);
