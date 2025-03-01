@@ -1,5 +1,7 @@
 'use strict';
 
+import { isOnDay } from './lib/isOnDay';
+
 const { async: ZipArchive } = require('node-stream-zip'); // node-stream-zip@1
 const { PassThrough, pipeline } = require('stream');
 const readCsv = require('gtfs-utils/read-csv');
@@ -29,18 +31,33 @@ async function gtfsUtils() {
         // process.exit(1);
         const stopovers = computeStopovers(readFile, 'America/Edmonton', {
             stopTime: (s: any) => {
-                if (s.stop_id === '2114') {
+                if (s.stop_id === '1891') {
                     // console.log(s);
-                    console.log(Object.keys(s));
-                    console.log(s.departure_time);
+                    // console.log(Object.keys(s));
+                    // console.log(s.departure_time);
                     return s;
                 }
             },
         });
 
+        const results: any[] = [];
+        const target_date = '2025-02-28';
+        const limit = 999;
+
         for await (const stopover of stopovers) {
-            // console.log(stopover);
+            if (results.length >= limit) {
+                break;
+            }
+            if (isOnDay(stopover.arrival, target_date)) {
+                results.push(stopover);
+            }
         }
+
+        console.log(results);
+
+        // for await (const stopover of stopovers) {
+        // console.log(stopover);
+        // }
         // const readFile = async (name) => {
         //     console.log(name);
         //     const file = await zip.stream(name + '.txt');
@@ -50,7 +67,7 @@ async function gtfsUtils() {
         // const stopovers = computeStopovers(readFile, 'America/Edmonton');
         // console.log(stopovers);
         // for await (const stopover of stopovers) console.log(stopover);
-
+        return results;
         await zip.close();
     } catch (error) {
         throw error;
@@ -95,11 +112,8 @@ function goaway() {
             return readCsv(stream);
         };
 
-        const stopovers = computeStopovers(readFile, 'America/Edmonton');
-
-        for await (const stopover of stopovers) console.log(stopover);
-
         await zip.close(); // We're done reading data, close .zip archive.
+        // console.log(await results);
     })().catch((err) => {
         console.error(err);
         process.exit(1);
