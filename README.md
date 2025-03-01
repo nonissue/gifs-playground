@@ -31,6 +31,26 @@ Before this started working, I was repeatedly getting an `Entries not found` err
 ## Issues
 
 - Issue with the zip file:
+
     - I don't think it's related to `calendar.txt` not being present in my data since it works fine with a batch of text files with only `calendar_dates.txt`
     - I don't think the issue is related to underscores in the file names or any file name formatting problem as, again, if I our `readFile` function is passed the unzipped `.txt` files, it seems to work fine and I tried passing a `.zip` without any file with an underscore in it's name and the error still occurred.
     - INITIAL CONCLUSION: I don't fully understand the example and library code — it's a few years old and the author writes JavaScript in a way that I found very hard to follow. The dev mixes both `Promises`/callbacks and `await/async` code together and writes code with little clarity and high complexity.
+
+- Issue with pushing to git because of enormous txt files
+    - couldnt push to git because gtfs txt files were tracked
+    - still in git history even after gitignoring them, so still cant push
+    - tried bfg, didnt work, ultimately used the following:
+
+```
+git filter-branch --tree-filter "rm -rf node_modules" --prune-empty HEAD
+git for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d
+echo node_modules/ >> .gitignore
+git add .gitignore
+git commit -m 'Removing node_modules from git history'
+git gc
+git push origin main --force
+```
+
+which caused the local files to be deleted I guess?
+
+Fuck it caused all kinds of issues. Ultimately I pulled a clean copy of the repo from git, and then just tried to readd anything that was `.gitignored`.
