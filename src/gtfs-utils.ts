@@ -22,13 +22,13 @@ async function gtfsUtils() {
         // console.log(entries);
 
         // await zip.close();
-        const readFile = (file) => {
+        const readFile = (file: any) => {
             return readCsv(require.resolve('../data/gtfs_sorted/' + file + '.txt'));
         };
 
         // process.exit(1);
         const stopovers = computeStopovers(readFile, 'America/Edmonton', {
-            stopTime: (s) => {
+            stopTime: (s: any) => {
                 if (s.stop_id === '2114') {
                     // console.log(s);
                     console.log(Object.keys(s));
