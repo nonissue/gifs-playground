@@ -1,3 +1,5 @@
+const readCsv = require('gtfs-utils/read-csv');
+const computeStopovers = require('gtfs-utils/compute-stopovers');
 // Accepts a stop id as a param, computes N next upcoming stopovers at X stop
 
 const getUpcomingDepartures = async (stop_id: string, limit: number = 5) => {
