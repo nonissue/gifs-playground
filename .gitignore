@@ -8,8 +8,9 @@ pnpm-lock.yaml*
 
 # TypeScript build artifacts  
 dist/  
-out/  
-*.js  
+out/
+*.js
+!*.config.js
 *.js.map  
 *.d.ts  
 *.d.ts.map  
