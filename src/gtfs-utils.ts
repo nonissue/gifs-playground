@@ -1,5 +1,5 @@
 'use strict';
-const { DateTime } = require('luxon');
+
 const { async: ZipArchive } = require('node-stream-zip'); // node-stream-zip@1
 const { PassThrough, pipeline } = require('stream');
 const readCsv = require('gtfs-utils/read-csv');
@@ -13,13 +13,6 @@ interface ZipEntry {
     size: number; // The size of the file (if it's a file, not a directory)
     isDirectory: boolean; // Whether the entry is a directory or a file
 }
-
-const isOnDay = (arrivalTimestamp: number, date: string): boolean => {
-    const arrivalDate = DateTime.fromMillis(arrivalTimestamp * 1000, {
-        zone: 'America/Edmonton',
-    }).toISODate();
-    return arrivalDate === date;
-};
 
 async function gtfsUtils() {
     try {
@@ -114,6 +107,5 @@ function goaway() {
 }
 
 (async () => {
-    console.log(isOnDay(1740744900, '2025-02-27'));
-    // await gtfsUtils();
+    await gtfsUtils();
 })();
