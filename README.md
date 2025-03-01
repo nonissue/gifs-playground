@@ -54,3 +54,5 @@ git push origin main --force
 which caused the local files to be deleted I guess?
 
 Fuck it caused all kinds of issues. Ultimately I pulled a clean copy of the repo from git, and then just tried to readd anything that was `.gitignored`.
+
+okay, fuck, like two hours later, i think it's fixed? goddamn. if I have more issues I'm tossing the `.git` dir and starting over, fuck LINUS TORVALDS (jk)
