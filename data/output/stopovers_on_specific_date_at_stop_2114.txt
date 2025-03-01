@@ -1,0 +1,1003 @@
+[
+  {
+    stop_id: '2114',
+    trip_id: '28208424',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740744900,
+    departure: 1740744900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208425',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740745620,
+    departure: 1740745620
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208426',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740746340,
+    departure: 1740746340
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208427',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740747060,
+    departure: 1740747060
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208428',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740747780,
+    departure: 1740747780
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208429',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740748500,
+    departure: 1740748500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208430',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740749220,
+    departure: 1740749220
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208431',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740749580,
+    departure: 1740749580
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208432',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740749940,
+    departure: 1740749940
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208433',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740750300,
+    departure: 1740750300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208434',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740750660,
+    departure: 1740750660
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208435',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740751020,
+    departure: 1740751020
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208436',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740751380,
+    departure: 1740751380
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208437',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740751740,
+    departure: 1740751740
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208438',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740752100,
+    departure: 1740752100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208439',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740752460,
+    departure: 1740752460
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208440',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740752820,
+    departure: 1740752820
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208441',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740753180,
+    departure: 1740753180
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208442',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740753540,
+    departure: 1740753540
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208443',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740753900,
+    departure: 1740753900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208444',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740754260,
+    departure: 1740754260
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208445',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740754620,
+    departure: 1740754620
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208446',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740754980,
+    departure: 1740754980
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208447',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740755340,
+    departure: 1740755340
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208448',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740755700,
+    departure: 1740755700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208449',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740756060,
+    departure: 1740756060
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208450',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740756420,
+    departure: 1740756420
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208451',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740756780,
+    departure: 1740756780
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208452',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740757140,
+    departure: 1740757140
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208453',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740757500,
+    departure: 1740757500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208454',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740757860,
+    departure: 1740757860
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208455',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740758220,
+    departure: 1740758220
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208456',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740758580,
+    departure: 1740758580
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208457',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740758940,
+    departure: 1740758940
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208458',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740759300,
+    departure: 1740759300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208459',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740759660,
+    departure: 1740759660
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208460',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740760020,
+    departure: 1740760020
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208461',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740760380,
+    departure: 1740760380
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208462',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740760740,
+    departure: 1740760740
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208463',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740761100,
+    departure: 1740761100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208499',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740762900,
+    departure: 1740762900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208500',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740763500,
+    departure: 1740763500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208501',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740764100,
+    departure: 1740764100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208502',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740764700,
+    departure: 1740764700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208503',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740765300,
+    departure: 1740765300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208504',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740765900,
+    departure: 1740765900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208505',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740766500,
+    departure: 1740766500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208506',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740767100,
+    departure: 1740767100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208507',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740767700,
+    departure: 1740767700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208508',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740768300,
+    departure: 1740768300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208509',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740768900,
+    departure: 1740768900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208510',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740769500,
+    departure: 1740769500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208511',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740770100,
+    departure: 1740770100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208512',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740770700,
+    departure: 1740770700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208513',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740771300,
+    departure: 1740771300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208514',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740771900,
+    departure: 1740771900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208515',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740772500,
+    departure: 1740772500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208516',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740773100,
+    departure: 1740773100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208517',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740773700,
+    departure: 1740773700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208518',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740774300,
+    departure: 1740774300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208519',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740774900,
+    departure: 1740774900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208520',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740775500,
+    departure: 1740775500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208521',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740776100,
+    departure: 1740776100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208522',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740776700,
+    departure: 1740776700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208523',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740777300,
+    departure: 1740777300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208524',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740777900,
+    departure: 1740777900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208525',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740778500,
+    departure: 1740778500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208526',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740779100,
+    departure: 1740779100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208527',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740779460,
+    departure: 1740779460
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208528',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740779820,
+    departure: 1740779820
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208529',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740780180,
+    departure: 1740780180
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208530',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740780540,
+    departure: 1740780540
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208531',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740780900,
+    departure: 1740780900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208532',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740781260,
+    departure: 1740781260
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208533',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740781620,
+    departure: 1740781620
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208534',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740781980,
+    departure: 1740781980
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208535',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740782340,
+    departure: 1740782340
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208536',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740782700,
+    departure: 1740782700
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208537',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740783060,
+    departure: 1740783060
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208538',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740783420,
+    departure: 1740783420
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208539',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740783780,
+    departure: 1740783780
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208540',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740784140,
+    departure: 1740784140
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208541',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740784500,
+    departure: 1740784500
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208542',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740784860,
+    departure: 1740784860
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208543',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740785220,
+    departure: 1740785220
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208544',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740785580,
+    departure: 1740785580
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208545',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740785940,
+    departure: 1740785940
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208546',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740786300,
+    departure: 1740786300
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208547',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740786660,
+    departure: 1740786660
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208548',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740787020,
+    departure: 1740787020
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208549',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740787380,
+    departure: 1740787380
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208550',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740787740,
+    departure: 1740787740
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208551',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740788100,
+    departure: 1740788100
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208552',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740788460,
+    departure: 1740788460
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208553',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740788820,
+    departure: 1740788820
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208554',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740789180,
+    departure: 1740789180
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208555',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740789540,
+    departure: 1740789540
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208556',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740789900,
+    departure: 1740789900
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208557',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740790260,
+    departure: 1740790260
+  },
+  {
+    stop_id: '2114',
+    trip_id: '28208558',
+    service_id: 'DX-021R-Weekday-7-25-02-1111100',
+    route_id: '021R',
+    shape_id: '021R-11-North',
+    start_of_trip: '2025-02-28',
+    arrival: 1740790620,
+    departure: 1740790620
+  },
+  ... 37 more items
+]

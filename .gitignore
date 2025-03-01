@@ -36,6 +36,6 @@ pids
 
 data/gtfs
 data/gtfs_sorted
-data/zip
-data/
-data/
+data/zips
+# data/**/*.zip
+# !/**/*/gtfs_sorted.zip
