@@ -34,8 +34,6 @@ pids
 .env.test.local  
 .env.production.local
 
-data/gtfs
-data/gtfs_sorted
-data/zips
+data
 # data/**/*.zip
 # !/**/*/gtfs_sorted.zip
