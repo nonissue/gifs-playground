@@ -32,20 +32,20 @@ export const getUpcomingDepartures = async (stopId: string, limit: number = 5) =
         //     continue;
         // }
 
-        if (isOnDay(stopover.arrival, '2025-02-28')) {
-            console.log('YUP');
-            upcomingStopovers.push(stopover);
-            break;
-        }
+        // if (isOnDay(stopover.arrival, '2025-02-28')) {
+        //     console.log('YUP');
+        //     upcomingStopovers.push(stopover);
+        //     break;
+        // }
         // if (isAfterNow(stopover.arrival) && isOnDay(stopover.start_of_trip, '2025-02-28')) {
         // console.log('stopId match!');
 
         // Check if the stopover is after the current time
 
         // if (isOnDay(stopover.arrival, '2025-02-28')) {
-        // if (isAfterNow(stopover.arrival)) {
-        //     upcomingStopovers.push(stopover);
-        // }
+        if (isAfterNow(stopover.arrival)) {
+            upcomingStopovers.push(stopover);
+        }
 
         // if (isAfterNow(stopover.arrival)) {
         //     console.log('is after current time!');
