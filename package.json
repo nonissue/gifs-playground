@@ -10,5 +10,8 @@
     "sponge": "^0.1.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0"
   }
 }
