@@ -1,0 +1,16 @@
+{
+    "agencies": [
+        {
+            "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/GTFS.zip",
+            "exclude": ["shapes"]
+        }
+    ],
+    "csvOptions": {
+        "skip_lines_with_error": true
+    },
+    "downloadTimeout": 5000,
+    "ignoreDuplicates": true,
+    "ignoreErrors": false,
+    "sqlitePath": "~/code/gtfs-playground/node-gtfs/data/db/gtfs",
+    "exportPath": "~/code/gtfs-playground/node-gtfs/data/exports"
+}
