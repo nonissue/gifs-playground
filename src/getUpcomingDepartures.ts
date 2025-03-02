@@ -2,11 +2,28 @@ const readCsv = require('gtfs-utils/read-csv');
 const computeStopovers = require('gtfs-utils/compute-stopovers');
 import { isAfterNow } from './lib/isAfterNow';
 import { isOnDay } from './lib/isOnDay';
-// Accepts a stop id as a param, computes N next upcoming stopovers at X stop
 
+const debug = true;
+/*
+┌───────────────────────┬───────────────────────────────┐
+│ function:             │ getUpcomingDepartures         │
+├───────────────────────┴───────────────────────────────┤
+│ params                                                │
+├───────────────────────┬───────────────────────────────┤
+│ stopId                │  string                       │
+├───────────────────────┼───────────────────────────────┤
+│ limit*                │  number                       │
+└───────────────────────┴───────────────────────────────┘
+    *: passing 0 to limit removes the limit altogether
+*/
 export const getUpcomingDepartures = async (stopId: string, limit: number = 5) => {
     if (!stopId) {
         throw new Error('stopId is required');
+    }
+
+    if (debug) {
+        const initMessage = `\nFunction: getUpcomingDepartures\nParams:\nstopId: ${stopId}\t|\tlimit: ${limit}`;
+        console.log(initMessage);
     }
 
     const readFile = (file: string) => {
@@ -43,17 +60,19 @@ export const getUpcomingDepartures = async (stopId: string, limit: number = 5) =
         // Check if the stopover is after the current time
 
         // if (isOnDay(stopover.arrival, '2025-02-28')) {
-        if (isAfterNow(stopover.arrival)) {
-            upcomingStopovers.push(stopover);
-        }
+        // if (isAfterNow(stopover.arrival)) {
+        //     upcomingStopovers.push(stopover);
+        // }
 
         // if (isAfterNow(stopover.arrival)) {
         //     console.log('is after current time!');
         //     upcomingStopovers.push(stopover);
         // }
 
-        if (upcomingStopovers.length >= limit) {
+        if (limit && upcomingStopovers.length >= limit) {
             break;
+        } else {
+            console.log('no limit!');
         }
         // Stop collecting once the limit is reached
     }
@@ -65,6 +84,6 @@ export const getUpcomingDepartures = async (stopId: string, limit: number = 5) =
 };
 
 (async () => {
-    const res = await getUpcomingDepartures('2114', 1);
+    const res = await getUpcomingDepartures('2113', 0);
     console.log(res);
 })();
